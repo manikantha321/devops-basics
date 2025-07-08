@@ -1,0 +1,15 @@
+what is virtual machine ?
+A Virtual Machine is a virtualized environment that behaves like a separate computer with its own CPU, memory, storage, and network interface, running on top of a hypervisor.
+Role of Virtual Machines :-
+ Isolated Environments: Allows teams to create isolated dev, test, and prod environments on the same physical hardware.
+ Scalability: Easy to scale resources up or down by adding or removing VMs.
+ Automation: VMs can be created, configured, and destroyed automatically using tools like Terraform, Ansible, or Jenkins.
+ Cost-Effective: Multiple VMs can run on a single physical server, optimizing hardware usage.
+
+
+what is hypervisor in devops ?
+A Hypervisor, also called a Virtual Machine Monitor (VMM), is software or firmware that allows multiple operating systems to share a single hardware host. Each OS runs as a separate virtual machine, with the hypervisor managing the resources.
+Types of Hypervisors:
+Type	                Description	                                                                               Example
+Type 1 (Bare Metal)	Installed directly on physical hardware. Provides better performance and efficiency.	       VMware ESXi, Microsoft Hyper-V, KVM
+Type 2 (Hosted)	        Runs on top of an existing operating system. Easier to set up but slightly less efficient. VirtualBox, VMware ,            Workstation

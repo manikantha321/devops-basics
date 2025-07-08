@@ -1,0 +1,90 @@
+1.What is AWS CLI?
+AWS CLI (Command Line Interface) is a tool provided by Amazon Web Services that allows you to interact with AWS services directly from the command line or terminal.
+It enables you to perform various AWS tasks such as:
+Creating and managing AWS resources like EC2 instances, S3 buckets, Lambda functions, etc.
+Automating AWS operations using scripts.
+Managing AWS services without using the AWS Management Console (GUI).
+
+ AWS CLI 
+->download AWS CLI
+->open fisr link
+->scroll down chose windows and download it
+->after downloading open cmd check it is downloaded or not commond is:- aws --version
+->configure aws:- aws configure
+(for access key and secret key goto aws profile click on security credintials scroll down create access key it will create secret key)
+->enter access key
+->enter secret key
+->region name:-us-east-1
+->format:json
+->again check it:aws s3 ls (it shows s3 buckets)
+
+
+2.What is an Operating System?
+An Operating System (OS) is system software that acts as an interface between the user, application programs, and the hardware of a computer.
+It manages all hardware and software resources and provides common services for computer programs.
+
+
+3.Linex Vs Windows
+"Linux is an open-source, secure, and customizable OS favored for servers and development, whereas Windows is a user-friendly, commercial OS widely used for desktops, businesses, and gaming."
+| Feature                | **Linux OS**                                  | **Windows OS**                                 |
+| ---------------------- | --------------------------------------------- | ---------------------------------------------- |
+| **Type**               | Open-source Operating System                  | Commercial Operating System                    |
+| **Source Code Access** | Freely available to modify and customize      | Closed-source, controlled by Microsoft         |
+| **Cost**               | Free (mostly)                                 | Paid license required                          |
+| **Security**           | Considered more secure, fewer viruses         | More vulnerable, target for malware            |
+| **User Interface**     | Mostly command-line & GUI available           | GUI-focused, user-friendly                     |
+| **Customizability**    | Highly customizable                           | Limited customization                          |
+| **Software Support**   | Vast open-source tools; fewer commercial apps | Strong support for commercial software & games |
+| **System Performance** | Lightweight, runs on old hardware too         | Heavier, needs higher system resources         |
+| **Common Users**       | Developers, Servers, Tech enthusiasts         | General users, businesses, gamers              |
+| **Examples**           | Ubuntu, Fedora, CentOS, Kali Linux            | Windows 10, Windows 11                         |
+
+
+4.What is Shell Scripting?
+Shell scripting is the process of writing a series of commands in a text file, known as a script, that the shell (command-line interpreter) executes to automate tasks on Unix/Linux systems.
+
+5.Purpose of Shell Script in DevOps?
+Shell scripting in DevOps is mainly used to automate repetitive tasks like code deployment, environment setup, system monitoring, and configuration management. It helps in achieving consistency, speeding up processes, and reducing manual errors. Shell scripts are also widely used in CI/CD pipelines for building, testing, and deploying applications
+(OR)
+Shell scripts help automate DevOps tasks like deployments, configurations, and monitoring, making processes faster and error-free
+
+SHELL SCRIPTING:-
+touch : creating a new file
+ls :-list of files/folders
+ls -ltr : list of files and their details
+man : it a suffix of every comman it tell the details of every commond (eg: man touch)
+vi/vim : to open the file (eg: vi filename)
+for insert mode : esc+i (keyboard keys)
+save the file (:wq!)
+print the content (cat filename)
+execute the file (sh filename or ./filename)
+give the permisions use chmod
+chmod the permisions divided into 3 categories you,group,everyone
+so linex has a number is 7 = 4,3,1
+ 4->read
+ 3->write
+ 1->execute
+
+if linex is giving permissions to the particular file to everyone the commod is (chmod 777 filename)
+
+
+note:when your writing shell scripting always start with #!/bin/bash (shelang+executable one)
+  Executable are : sh,bash,dash,shk but more prefer bash it recommended one
+
+write content in the file is-> echo "Helo world"
+
+history - it tell the previous work wt u do.
+
+pwd(present working directory)
+
+create folder- mkdir filename
+move to inside folder - cd filename
+move back folder - cd ..
+
+comments - # this is comment
+delete folder = rm -rf foldername
+remove file = rm filename
+
+nproc - list the cpu's processing in ur machine
+free - u can identify wt is the free memory,total memory, available memory
+top - it tell the imformation of CPU's and RAM (istead of nproc , free)

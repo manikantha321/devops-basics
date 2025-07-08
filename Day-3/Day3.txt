@@ -1,0 +1,47 @@
+How to Create Virtual Machines?
+"In DevOps, VMs are often provisioned using tools like Vagrant, Terraform, or Cloud APIs, allowing for automated, repeatable, and consistent environments."
+
+Creating VM in AWS:-
+click on EC2 service
+click on instances
+click on launch instance
+provide the details
+Ex.name = test
+select OS like Ubuntu
+choose instance type - free tire eligible
+Create Key pair - click new key pair - provide name - test1
+Click on launch instance - then the virual machine is created
+open the instance view - it visible creted instance
+click on Instance ID
+click on right side top connect button
+click again down side connect button 
+VM created successfully
+check it create some file
+for creating file command->touch manikanta
+for checking file command->ls
+it shown the filename ->manikanta
+
+
+->CONNECT TO EC2 INSTANCE FROM MOBAXTERM 
+step1:create instance
+step2:download mobaxterm select Home free editon
+step3:click on installer version
+step4:Extract the zip file
+step5:open it and install it
+step6:open mobaxterm terminal choose session click on new session select SSH
+step7:fill the fields => Remote host :public Ip address  specify username:ubuntu
+step8:click on Advanced SSH settings upload Use private key on your downloads the click ok
+step9:after all success run this command :- sudo apt update
+
+
+ (optional**)How to connect to EC2 Instance from UI & Terminal 
+For terminals :- mobaxterm or nomachine
+EC2 Instance from Terminal :-
+step1-ssh ubuntu@public port   Ex-public port:- 3.92.205.153
+step2-yes
+if access denied:-
+step1:-ssh -i key-location ubuntu@3.92.205.153
+again failing - the permisions are too open
+step1-chmod 600
+step2-ssh -i key-location ubuntu@3.92.205.153
+successfully loged

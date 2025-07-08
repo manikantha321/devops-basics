@@ -1,0 +1,20 @@
+what is devops ?
+"DevOps is a process and cultural approach focused on improving application delivery by ensuring proper automation throughout the software development lifecycle. It emphasizes continuous integration, continuous testing, continuous monitoring, and continuous delivery to ensure faster, more reliable releases while maintaining high software quality."
+
+
+why devops ?
+"DevOps is adopted to bridge the gap between development and operations teams, enabling faster, more reliable, and efficient software delivery. It promotes automation, collaboration, and continuous feedback, which results in higher software quality, reduced deployment failures, and quicker time to market."
+
+
+What is SDLC in DevOps?
+In DevOps, SDLC (Software Development Life Cycle) refers to the process of planning, developing, testing, releasing, and maintaining software with a strong focus on automation, collaboration, and continuous delivery.
+
+SDLC Phases in DevOps :
+Plan – Gather requirements and plan development tasks
+Develop – Write and manage code collaboratively
+Build – Compile code and create build artifacts automatically
+Test – Perform automated testing to ensure quality
+Release – Package and prepare software for deployment
+Deploy – Automatically deploy to production or staging
+Operate – Monitor application performance and health
+Monitor & Feedback – Continuous monitoring and feedback loop for improvements
